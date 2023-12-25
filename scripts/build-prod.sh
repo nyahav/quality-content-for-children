@@ -1,8 +1,8 @@
-#!/bin/bash
+@echo off
 
-set -x #echo on
-
-bash scripts/clean.sh
+call scripts\clean.bat
 
 cd frontend
-yarn run build
+yarn build
+
+echo Build complete!

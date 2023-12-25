@@ -1,6 +1,6 @@
-#!/bin/bash
-
-set -x #echo on
+@echo off
 
 cd frontend
-rm -rf .next
+rd /s /q .next
+
+echo Next cache cleared!
